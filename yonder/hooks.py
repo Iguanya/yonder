@@ -10,12 +10,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/yonder/css/yonder.css"
+app_include_css = "/assets/yonder/css/style.css"
 # app_include_js = "/assets/yonder/js/yonder.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/yonder/css/yonder.css"
-# web_include_js = "/assets/yonder/js/yonder.js"
+web_include_css = "/assets/yonder/css/style.css"
+web_include_js = "/assets/yonder/js/main.js"
+web_include_img = "/assets/img/"
+web_include_vendor = "/assets/yonder/vendor/"
+
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "yonder/public/scss/website"
@@ -226,4 +229,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
