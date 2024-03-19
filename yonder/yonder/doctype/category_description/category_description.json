@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-19 16:38:40.622903",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_e3zn",
+  "description",
+  "date_uploaded"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_e3zn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_uploaded",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date Uploaded",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-19 16:47:54.739735",
+ "modified_by": "Administrator",
+ "module": "Yonder",
+ "name": "Category description",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
